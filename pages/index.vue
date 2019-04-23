@@ -39,6 +39,7 @@ export default {
   font-family: heisei-mincho-stdn, serif;
   font-feature-settings: "palt";
   letter-spacing: 0.12em;
+  text-align: left;
 }
 
 .links {

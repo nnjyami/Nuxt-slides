@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <h3 class="subTitle">構成</h3>
-    <ul>
+  <div class="unit">
+    <h3 class="sub-title">構成・開発環境</h3>
+    <ul class="body">
       <li>iPad Pro (11inch)</li>
       <li>iOS 12.2</li>
       <li>CodeSandbox (PWA)</li>

@@ -37,27 +37,40 @@ html {
 }
 
 .container {
-  min-height: 95vh;
+  max-height: 95vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   position: relative;
-
+  flex-direction: column;
+  padding-top: 2vh;
+}
+.unit {
+  max-height: 86vh;
   font-family: heisei-mincho-stdn, serif;
   font-feature-settings: "palt";
   letter-spacing: 0.12em;
   line-height: 2;
   text-align: left;
-}
 
-.subTitle {
-  font-size: 2em;
   writing-mode: vertical-rl;
 }
+.sub-title,
 .body {
-  font-size; 1.4em;
-  margin-bottom: 1.4em;
+  display: inline-block;
+  height: 100%;
+}
+.sub-title {
+  font-size: 2.4em;
+  margin-left: 2.4em;
+}
+.body {
+  font-size: 1.8em;
+  margin-left: 2em;
+}
+ul li {
+  margin-left: 1.5em;
 }
 
 .button--green {
@@ -66,7 +79,7 @@ html {
   border: 1px solid #00c48d;
   color: #00c48d;
   text-decoration: none;
-  padding: 8px 12px;
+  padding: 0 8px;
   display: inline-flex;
   align-self: center;
 }
@@ -82,7 +95,7 @@ html {
   border: 1px solid #2e495e;
   color: #2e495e;
   text-decoration: none;
-  padding: 8px 12px;
+  padding: 0 10px;
   margin-left: 10px;
 }
 

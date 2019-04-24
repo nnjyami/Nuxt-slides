@@ -1,20 +1,17 @@
 <template>
-  <div class="container">
-    <div class="heiseiText">
-      <h1>伝えたいこと</h1>
-      <ul>
-        <li>
-          CodeSandbox を使うと iOS でも<br />簡単にVue / Nuxt
-          素振り環境ができる！
-        </li>
-        <li>
-          素振りの障壁を低くすることで、<br />より多くの人が素振りできるように
-        </li>
-        <li>
-          CodeSandbox → Netlify へのデプロイが<br />追加されたことで、さらに可能性が！
-        </li>
-      </ul>
-    </div>
+  <div class="unit">
+    <h3 class="sub-title">伝えたいこと</h3>
+    <ul class="body">
+      <li>
+        CodeSandbox を使うと iOS でも<br />簡単にVue / Nuxt 素振り環境ができる！
+      </li>
+      <li>
+        素振りの障壁を低くすることで、<br />より多くの人が素振りできるように
+      </li>
+      <li>
+        CodeSandbox → Netlify へのデプロイが<br />追加されたことで、さらに可能性が！
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -29,28 +26,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.heiseiText {
-  writing-mode: vertical-rl;
-  font-family: heisei-mincho-stdn, serif;
-  font-feature-settings: "palt";
-  letter-spacing: 0.12em;
-  text-align: left;
-}
-h1 {
-  font-weight: 400;
-}
-.name {
-  color: #00c48d;
-}
-p {
-  margin-top: 20px;
-}
-</style>
+<style scoped></style>

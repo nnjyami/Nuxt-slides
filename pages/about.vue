@@ -1,15 +1,14 @@
 <template>
-  <div class="container">
-    <div>
-      <h3 class="subTitle">本日の資料は</h3>
-      <p class="body">もちろん Vue（Nuxt）でできています！</p>
-      <p class="body">
-        さらに京都だから、<br />
-        いや、ただ変わったことしたいから<br />
-        縦書きにしてみました。
-      </p>
-      <p class="body">そして、基本的に iPad だけで作成しました！</p>
-    </div>
+  <div class="unit">
+    <h3 class="sub-title">本日の資料は</h3>
+    <p class="body">もちろん Vue（Nuxt）で書いています！</p>
+    <p class="body">
+      さらに、京都だから<br />
+      CSS だからできることをしたくて<br />
+      いや、ただ目立ちたくて...<br />
+      縦書きにしてみました。
+    </p>
+    <p class="body">そして、iPad だけで作成しました！</p>
   </div>
 </template>
 

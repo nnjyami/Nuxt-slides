@@ -2,26 +2,23 @@
   <section>
     <div>
       <h1 class="subtitle">
-        iOS で Vue 環境を作るための旅に出たら<br />
-        JAMStack な登壇資料ができて<br />
-        平成最後の登壇をしている話
+        iOS だけで Vue が書ける環境を作り<br />
+        Netlify へデプロイして<br />
+        JAMStack な LT をする話
       </h1>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green"
-          >Documentation <IconLink
-        /></a>
-        <NLink to="/about" class="button--grey">About</NLink>
-      </div>
+      <Navigation />
     </div>
   </section>
 </template>
 
 <script>
 import IconLink from "~/components/IconLink.vue";
+import Navigation from "~/components/Navigation.vue";
 
 export default {
   components: {
-    IconLink
+    IconLink,
+    Navigation
   }
 };
 </script>

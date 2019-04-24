@@ -1,25 +1,23 @@
 <template>
   <section>
     <div>
-      <h1 class="subtitle">
-        iOS だけで Vue が書ける環境を作り<br />
+      <h1 class="title">
+        iOS(iPad) だけで<br />
+        Vue/Nuxt が書ける<br />
+        環境を構築して<br />
         Netlify へデプロイして<br />
-        JAMStack な LT をする話
+        JAMStack な<br />
+        LT をする話
       </h1>
-      <Navigation />
     </div>
   </section>
 </template>
 
 <script>
-import IconLink from "~/components/IconLink.vue";
-import Navigation from "~/components/Navigation.vue";
-
+// import IconLink from "~/components/IconLink.vue";
 export default {
-  components: {
-    IconLink,
-    Navigation
-  }
+  layout: "slide",
+  components: {}
 };
 </script>
 
@@ -28,14 +26,15 @@ export default {
   color: #00c48d;
 }
 
-.subtitle {
-  font-size: 1.4em;
+.title {
+  font-size: 2.4em;
   color: #2e495e;
   padding-bottom: 0px;
   writing-mode: vertical-rl;
   font-family: heisei-mincho-stdn, serif;
   font-feature-settings: "palt";
   letter-spacing: 0.12em;
+  line-height: 3;
   text-align: left;
 }
 

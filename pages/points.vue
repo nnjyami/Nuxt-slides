@@ -14,13 +14,13 @@
           CodeSandbox → Netlify へのデプロイが<br />追加されたことで、さらに可能性が！
         </li>
       </ul>
-      <p><NLink to="/" class="button--grey">Back home</NLink></p>
     </div>
   </div>
 </template>
 
 <script>
 export default {
+  layout: "slide",
   asyncData() {
     return {
       name: process.server ? "server" : "client"

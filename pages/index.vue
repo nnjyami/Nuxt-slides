@@ -4,7 +4,7 @@
       iOS(iPad) だけで<br />
       Vue/Nuxt が書ける<br />
       環境を構築して<br />
-      Netlify へデプロイして<br />
+      netlify へデプロイして<br />
       JAMStack な<br />
       LT をする話
     </h1>

@@ -37,17 +37,17 @@ html {
 }
 
 .container {
-  max-height: 95vh;
+  max-height: 93vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   position: relative;
   flex-direction: column;
-  padding-top: 2vh;
+  margin-top: 6vh;
 }
 .unit {
-  max-height: 86vh;
+  max-height: 80vh;
   font-family: heisei-mincho-stdn, serif;
   font-feature-settings: "palt";
   letter-spacing: 0.12em;
@@ -95,7 +95,7 @@ ul li {
   border: 1px solid #2e495e;
   color: #2e495e;
   text-decoration: none;
-  padding: 0 10px;
+  padding: 0 14px;
   margin-left: 10px;
 }
 

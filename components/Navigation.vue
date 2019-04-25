@@ -21,10 +21,14 @@ export default {
         "equipment",
         "whyiOS",
         "onlineIDE",
+        "imgCodeSandbox",
+        //"imgCoder",
+        //"imgGitPod",
         "iOSKeyboardBug",
         "codeSandbox",
         "iOS122PWA",
         "iOSProblem",
+        "iOSSolution",
         "codeSandboxNetlify",
         "codeSandboxToNetlify",
         "summary"
@@ -46,7 +50,7 @@ export default {
   justify-content: center;
 
   position: fixed;
-  bottom: 5vh;
+  bottom: 6vh;
   left: 2vw;
   z-index: 100;
 }
